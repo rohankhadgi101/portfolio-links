@@ -1,0 +1,80 @@
+body{
+    background-color: #F5F8FF;
+    font-family: lexend;
+}
+
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+}
+
+.links-container {
+    display: flex;
+    background-color: #fff;
+    max-width: fit-content;    
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 24px;
+    border: #60A2EF 2px solid;
+    padding: 32px 36px;
+    box-shadow: 6px 6px 0 0 #5DA1EA;
+    border-radius: 32px;    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+button{
+    cursor: pointer;
+    transition: scale 0.3s ease;
+}
+
+button:hover{
+    scale: 1.05;
+}
+#box-title{
+    font-size: 24px;
+}
+
+#behance{
+    font-family: lexend;
+    background-color: #fff;
+    color: #0073F7;
+    width: 259px;
+    font-size: 36px;
+    padding: 24px 0;
+    border: #0073F7 2px solid;
+    box-shadow: 6px 6px 0 0 #0073F7;
+    border-radius: 16px;  
+}
+
+#instagram{
+    font-family: lexend;
+    background-color: #fff;
+    color: #F77E3E;
+    width: 259px;
+    font-size: 36px;
+    padding: 24px 0;
+    border: #F77E3E 2px solid;
+    box-shadow: 6px 6px 0 0 #F77E3E;
+    border-radius: 16px;  
+}
+
+#dribbble{
+    font-family: lexend;
+    background-color: #fff;
+    color: #EC5D94;
+    width: 259px;
+    font-size: 36px;
+    padding: 24px 0;
+    border: #EC5D94 2px solid;
+    box-shadow: 6px 6px 0 0 #EC5D94;
+    border-radius: 16px;  
+}
