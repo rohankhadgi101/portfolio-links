@@ -137,3 +137,33 @@ button:hover{
     }
     
 }
+
+@media screen and (max-width: 400px) {
+    .character-container {
+        margin-top: 64px;
+        margin-left: 28px;
+    }
+    img{
+        width: 450px;
+    }
+    .links-container {
+        margin-top: 24px;
+        padding: 28px 32px;
+        gap: 12px;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        font-size: 18px;
+    }
+    #box-title{
+    font-size: 12px;
+    }
+    #behance, #instagram, #dribbble {
+        font-size: 20px;
+        padding: 16px 0;
+    }
+    
+}
