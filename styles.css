@@ -6,6 +6,7 @@ body{
 .character-container {
     display: flex;
     flex-wrap: wrap;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     margin-left: 280px;
@@ -77,4 +78,62 @@ button:hover{
     border: #EC5D94 2px solid;
     box-shadow: 6px 6px 0 0 #EC5D94;
     border-radius: 16px;  
+}
+
+@media screen and (max-width: 1000px) {
+    .character-container {
+        margin-left: 64px;
+    }
+    img{
+        width: 600px;
+    }
+    .links-container {
+
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 100%;
+        font-size: 24px;
+    }
+    #box-title{
+    font-size: 18px;
+    }
+    #behance, #instagram, #dribbble {
+        font-size: 28px;
+        padding: 16px 0;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .character-container {
+        margin-top: 64px;
+        margin-left: 44px;
+    }
+    img{
+        width: 450px;
+    }
+    .links-container {
+        margin-top: 24px;
+        padding: 28px 32px;
+        gap: 12px;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        font-size: 18px;
+    }`
+    #box-title{
+    font-size: 16px;
+    }
+    #behance, #instagram, #dribbble {
+        font-size: 20px;
+        padding: 16px 0;
+    }
+    
 }
