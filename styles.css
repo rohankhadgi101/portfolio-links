@@ -44,6 +44,18 @@ button:hover{
     font-size: 24px;
 }
 
+.block-1{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.block-2{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
 #behance{
     font-family: lexend;
     background-color: #fff;
@@ -80,7 +92,20 @@ button:hover{
     border-radius: 16px;  
 }
 
-@media screen and (max-width: 1000px) {
+#motion{
+    font-family: lexend;
+    background-color: #fff;
+    color: #179d39;
+    width: 259px;
+    font-size: 36px;
+    padding: 24px 0;
+    border: #179d39 2px solid;
+    box-shadow: 6px 6px 0 0 #179d39;
+    border-radius: 16px;  
+}
+
+
+@media screen and (max-width: 1280px) {
     .character-container {
         margin-left: 64px;
     }
@@ -101,14 +126,14 @@ button:hover{
     #box-title{
     font-size: 18px;
     }
-    #behance, #instagram, #dribbble {
+    #behance, #instagram, #dribbble, #motion {
         font-size: 28px;
         padding: 16px 0;
     }
     
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 670px) {
     .character-container {
         margin-top: 64px;
         margin-left: 44px;
@@ -129,9 +154,13 @@ button:hover{
         font-size: 18px;
     }
     #box-title{
-    font-size: 12px;
+        font-size: 12px;
     }
-    #behance, #instagram, #dribbble {
+    .block-1, .block-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #behance, #instagram, #dribbble, #motion {
         font-size: 20px;
         padding: 16px 0;
     }
@@ -161,7 +190,12 @@ button:hover{
     #box-title{
     font-size: 12px;
     }
-    #behance, #instagram, #dribbble {
+
+    .block-1, .block-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #behance, #instagram, #dribbbl, #motion {
         font-size: 20px;
         padding: 16px 0;
     }
